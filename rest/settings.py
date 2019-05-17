@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
-# ALLOWED_HOSTS = ['https://wild-boards.herokuapp.com/']
+
 
 
 # Application definition
@@ -97,7 +97,7 @@ DATABASES = {
     }
 }
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://wild-boards.herokuapp.com/']
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
